@@ -3,18 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
-.card-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 50px 0px;
-}
+
+/* nav started  */
+
 .nav-link,.navbar-brand{
     color:#ffff !important;
 }
-.card{
+
+.btn{
+    color:#fff  !important;
+}
+
+/* nav end */
+
+/* carousel started */
+
+.carousel{
     margin-top: 30px;
 }
+
+/* carousel ended */
+
+/* card started */
 
 .pop-heading{
     font-size: 200%;
@@ -22,6 +32,18 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 30px;
 }
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px 0px;
+}
+.card{
+    margin-top: 30px;
+}
+
+/* card ended */
+
 a {
     color: #fff;
     text-decoration: none;
@@ -203,6 +225,7 @@ a {
   
   .footer-social-icon-svg {
       display: block;
+      width: 25px;
   }
   
   .footer-social-icon-path {
@@ -225,8 +248,8 @@ a {
   }
   
   .footer-social-link.github {
-      height: 34px;
-      left: 172px;
+      height: 40px;
+      left: 175px;
       top: 7px;
       width: 34px;
   }
